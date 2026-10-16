@@ -1,0 +1,7 @@
+feat(enrolments): implement EnrolmentsController for participant entries
+
+- POST /api/events/{eventId}/enrol for participants
+- GET /api/enrollments/me returns own enrolments
+- GET /api/events/{eventId}/enrollments for event organisers
+- PUT /api/enrollments/{id} allows cancellation
+- Prevent duplicate enrolment (409) and enforce category capacity
