@@ -1,0 +1,6 @@
+ implement EventsController with full CRUD
+
+- GET /api/events lists events with optional status filter
+- GET /api/events/{id} returns event with categories
+- POST/PUT/DELETE endpoints restricted to Organiser role
+- Update/Delete verify event ownership (403 for non-owners)
