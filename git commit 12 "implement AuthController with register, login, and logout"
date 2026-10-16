@@ -1,0 +1,6 @@
+feat(auth): implement AuthController with register, login, and logout
+
+- POST /api/auth/register creates a new user with hashed password
+- POST /api/auth/login validates credentials and sets session
+- POST /api/auth/logout clears the session
+- Duplicate email returns 409 Conflic
