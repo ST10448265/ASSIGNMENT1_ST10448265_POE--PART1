@@ -1,0 +1,5 @@
+feat(categories): implement CategoriesController for event categories
+
+- GET /api/events/{eventId}/categories lists categories (public)
+- POST endpoint for organisers to add categories
+- PUT/DELETE verify parent event ownership
