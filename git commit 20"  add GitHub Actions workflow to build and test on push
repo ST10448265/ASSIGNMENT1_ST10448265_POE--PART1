@@ -1,0 +1,6 @@
+ci: add GitHub Actions workflow to build and test on push
+
+- .github/workflows/ci.yml runs on push to main and part2 branches
+- Restores dependencies, builds in Release mode, runs all tests
+- Includes README with setup instructions, role descriptions,
+  CI badge, and demo video link
