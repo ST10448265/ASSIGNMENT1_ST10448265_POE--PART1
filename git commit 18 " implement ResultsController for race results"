@@ -1,0 +1,7 @@
+feat(results): implement ResultsController for race results
+
+- POST /api/enrollments/{id}/result for organisers
+- GET /api/enrollments/{id}/result for authorised users
+- GET /api/events/{id}/results returns event leaderboard
+- GET /api/results/me returns participant history
+- PUT/DELETE restricted to parent event organiser
