@@ -1,0 +1,5 @@
+feat(auth): implement SessionAuthAttribute for role-based authorization
+
+- Custom IAuthorizationFilter checks session UserId
+- Returns 401 for unauthenticated requests
+- Returns 403 when required role does not match
