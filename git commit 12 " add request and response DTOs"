@@ -1,0 +1,4 @@
+feat(dtos): add request and response DTOs
+
+- RegisterDto, LoginDto, UserProfileDto, UpdateProfileDto
+- Keeps API contracts clean and separate from entities
