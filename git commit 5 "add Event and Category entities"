@@ -1,0 +1,5 @@
+feat(models): add Event and Category entities
+
+- Event: Name, Description, EventDate, Location, EventType, Status
+- Category: Name, DistanceKm, MaxParticipants, EntryFee, age range
+- Configured navigation properties between Event and Category
