@@ -1,0 +1,5 @@
+Install required NuGet packages for API
+
+- Added Entity Framework Core SQL Server and Tools
+- Added Swashbuckle.AspNetCore for Swagger
+- Added BCrypt.Net-Next for password hashing
