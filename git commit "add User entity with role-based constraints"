@@ -1,0 +1,4 @@
+feat(models): add User entity with role-based constraints
+
+- UserId, FirstName, LastName, Email, PasswordHash, Phone, Role
+- Navigation properties for OrganisedEvents and Enrolments
