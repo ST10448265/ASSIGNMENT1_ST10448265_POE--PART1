@@ -1,0 +1,8 @@
+test: add unit tests for API endpoints and role-based access
+
+- AuthControllerTests: register, login, duplicate, invalid role
+- EventsControllerTests: CRUD success and 403 failures
+- EnrolmentsControllerTests: enrol, duplicates, capacity, ownership
+- ResultsControllerTests: create, duplicate, ownership checks
+- RoleBasedAccessTests: verify SessionAuthAttribute behaviour
+- All 25+ tests pass locally
