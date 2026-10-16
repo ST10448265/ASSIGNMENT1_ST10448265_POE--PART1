@@ -1,0 +1,5 @@
+Initialize RaceDay.API ASP.NET Core Web API project
+
+- Created RaceDay.API project targeting .NET 8
+- Added initial folder structure (Controllers, Models, DTOs, Data, Middleware, Helpers)
+- Set up solution with RaceDay.Tests xUnit project
