@@ -1,0 +1,5 @@
+ install test project dependencies
+
+- Added xUnit, FluentAssertions, Moq
+- Added EntityFrameworkCore.InMemory for unit tests
+- Configured RaceDay.Tests with project reference to RaceDay.API
