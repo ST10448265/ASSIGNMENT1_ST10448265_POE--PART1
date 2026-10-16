@@ -1,0 +1,4 @@
+remove default WeatherForecast template files
+
+- Deleted WeatherForecast.cs
+- Deleted WeatherForecastController.cs
