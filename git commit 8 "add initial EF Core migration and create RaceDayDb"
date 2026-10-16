@@ -1,0 +1,5 @@
+feat(data): add initial EF Core migration and create RaceDayDb
+
+- Ran Add-Migration InitialCreate
+- Applied Update-Database to create the schema
+- Verified all 7 tables match Part 1 ERD
