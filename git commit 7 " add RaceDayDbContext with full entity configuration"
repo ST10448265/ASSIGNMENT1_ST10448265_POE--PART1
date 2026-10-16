@@ -1,0 +1,6 @@
+feat(data): add RaceDayDbContext with full entity configuration
+
+- DbSets for all 7 entities
+- Fluent API configuration in OnModelCreating
+- Unique indexes, check constraints, and cascade rules
+- Composite keys for Enrolment linking Event + Category
