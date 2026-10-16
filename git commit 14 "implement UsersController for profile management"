@@ -1,0 +1,5 @@
+feat(users): implement UsersController for profile management
+
+- GET /api/users/profile returns current user profile
+- PUT /api/users/profile updates name, email, and phone
+- Both endpoints require authentication via SessionAuthAttribute
