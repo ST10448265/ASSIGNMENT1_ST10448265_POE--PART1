@@ -1,0 +1,6 @@
+feat(models): add Enrolment, Result, EventRoute, WeatherSnapshot entities
+
+- Enrolment links Participant, Event, and Category
+- Result captures FinishTime, Position, ResultStatus
+- EventRoute for optional route details
+- WeatherSnapshot for forecast data
