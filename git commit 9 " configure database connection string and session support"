@@ -1,0 +1,5 @@
+configure database connection string and session support
+
+- Added DefaultConnection in appsettings.json
+- Registered DbContext with UseSqlServer in Program.cs
+- Configured distributed memory cache and session with 30-minute timeout
